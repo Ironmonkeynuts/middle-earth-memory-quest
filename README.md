@@ -19,7 +19,7 @@ source: [middle-earth-memory-quest amiresponsive](https://ui.dev/amiresponsive?u
 
 #### 1. Strategy Plane
 ##### Purpose
-- Provide users with ...
+- Provide users with a interactive matching image game
 - Deliver instant feedback to improve usability and encourage learning.
 - Support accessibility and user-friendly interactions.
 
@@ -28,15 +28,15 @@ source: [middle-earth-memory-quest amiresponsive](https://ui.dev/amiresponsive?u
 
 ##### Business Goals
 - Encourage users to engage with the app for recreational purposes.
-- Showcase a well-designed, accessible tool that ...
+- Showcase a well-designed, accessible tool that demonstates good interactive experience with links to related sites.
 
 #### 2. Scope Plane
 ##### Features
 - A full list of [Features](#features) can be viewed in detail below.
 
 ##### Content Requirements
-- Clear labels and instructions for input and ...
-- Error messages for invalid inputs.
+- Clear labels and instructions for selection and game play.
+- Error messages for invalid inputs or selections.
 - Instant feedback on success and failure.
 - Statistics display for tracking attempts, score and high score.
 
@@ -88,13 +88,12 @@ I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to ge
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
-| As a user | I would like to ... |
+| As a user | I would like to select two cards, reveal their images | so that I can see if they match or memorise card images for later selection|
 | As a user | I would like the application to show me an error message if I enter empty input (`NaN`) | so that I understand what went wrong. |
-| As a user | I would like the ... |
-| As a user | I would like the application to have clear and large buttons ... so that I can easily select the correct one on any device. |
+| As a user | I would like the game to acknowledge if two cards match or are different | so that results of selection are highlighted |
+| As a user | I would like the application to have clear and large buttons and selectable cards | so that I can easily select the correct one on any device. |
 | As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. |
 | As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. |
-| As a user | I would like the app to show me if the the cards match or not | so that I understand how ...|
 | As a user | I would like to see how many attempts I make to complete the puzzle | so I can push myself to improve my performance. |
 | As a user | I would like to see the score I make to complete the puzzle | so I can push myself to improve my performance. |
 | As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
