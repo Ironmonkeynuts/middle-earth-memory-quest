@@ -37,3 +37,9 @@ body {
 .flipped img {
     display: block;
 }
+
+/* Score display */
+#score {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
