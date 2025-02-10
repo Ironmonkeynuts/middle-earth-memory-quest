@@ -50,8 +50,8 @@ source: [middle-earth-memory-quest amiresponsive](https://ui.dev/amiresponsive?u
 
 ##### User Flow
 1. User lands on the home page → reads brief instructions.
-2. User selects a difficulty level.
-3. User clicks start/restart button → game commences
+2. User selects number of pairs.
+3. User clicks start button → game commences
 4. User selects two cards to reveal images.
 5. Views correct/incorrect matching feedback → if correct card images remain visible else card images revert to hidden.
 6. User loops through events 4 and 5 until all card images are matched. 
