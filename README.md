@@ -88,9 +88,9 @@ I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to ge
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
-| As a user | I would like to select two cards, reveal their images | so that I can see if they match or memorise card images for later selection|
+| As a user | I would like to select two cards, reveal their images | so that I can see if they match or memorise card images for later selection.|
 | As a user | I would like the application to show me an error message if I enter empty input (`NaN`) | so that I understand what went wrong. |
-| As a user | I would like the game to acknowledge if two cards match or are different | so that results of selection are highlighted |
+| As a user | I would like the game to acknowledge if two cards match or are different | so that results of selection are highlighted. |
 | As a user | I would like the application to have clear and large buttons and selectable cards | so that I can easily select the correct one on any device. |
 | As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. |
 | As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. |
@@ -121,7 +121,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Score | ... | ![screenshot](documentation/features/score.png) |
 | High Score | ... | ![screenshot](documentation/features/high-score.png) |
 | Alerts | Depending on whether or not the user gets a matching pair of images or completes a game, alerts are used to provide simple feedback to the user. This showcases if they got it correct, or if they've gotten it incorrect, and ultimately if they have completed the game. | ![screenshot](documentation/features/alerts.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Maths* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Middle-Earth Memory Quest* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
 
 ### Future Features
 
