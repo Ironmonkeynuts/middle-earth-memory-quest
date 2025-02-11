@@ -21,4 +21,11 @@ const imagePaths = [
     matchedPairs = 0;
     score = 0;
     updateScore();
+
+        // Select a subset of images based on the number of pairs chosen
+        const selectedImages = imagePaths.slice(0, pairs);
+        // Duplicate and shuffle images to create game board
+        const gameImages = [...selectedImages, ...selectedImages].sort(() => Math.random() - 0.5); 
+        const gameBoard = document.getElementById('game-board');
+        gameBoard.innerHTML = ''; // Clear the game board
 }
