@@ -12,3 +12,13 @@ const imagePaths = [
     'images/img9.jpg', 'images/img10.jpg', 'images/img11.jpg', 'images/img12.jpg',
     'images/img13.jpg','images/img14.jpg', 'images/img15.jpg','images/img16.jpg'
 ];
+
+ // Function to start the game
+ function startGame() {
+    const pairs = parseInt(document.getElementById('pairs').value); // Get number of pairs
+
+    totalPairs = pairs;
+    matchedPairs = 0;
+    score = 0;
+    updateScore();
+}
