@@ -22,10 +22,22 @@ const imagePaths = [
     score = 0;
     updateScore();
 
-        // Select a subset of images based on the number of pairs chosen
-        const selectedImages = imagePaths.slice(0, pairs);
-        // Duplicate and shuffle images to create game board
-        const gameImages = [...selectedImages, ...selectedImages].sort(() => Math.random() - 0.5); 
-        const gameBoard = document.getElementById('game-board');
-        gameBoard.innerHTML = ''; // Clear the game board
+    // Select a subset of images based on the number of pairs chosen
+    const selectedImages = imagePaths.slice(0, pairs);
+    // Duplicate and shuffle images to create game board
+    const gameImages = [...selectedImages, ...selectedImages].sort(() => Math.random() - 0.5); 
+    const gameBoard = document.getElementById('game-board');
+    gameBoard.innerHTML = ''; // Clear the game board
+
+    // Create card elements for each image and add to game board
+    gameImages.forEach((imgSrc, index) => {
+        const card = document.createElement('div');
+        card.classList.add('card');
+        card.dataset.image = imgSrc;
+        card.onclick = () => flipCard(card);
+        const img = document.createElement('img');
+        img.src = imgSrc;
+        card.appendChild(img);
+        gameBoard.appendChild(card);
+    });
 }
