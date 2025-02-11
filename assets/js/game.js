@@ -1,6 +1,7 @@
 // Define variables
 let firstcard = null;
 let secondcard = null;
+let lockBoard = false; // Prevents clicking more than two cards at a time
 let totalPairs = 0;
 let matchedPairs = 0;
 let score = 0;
@@ -13,8 +14,8 @@ const imagePaths = [
     'images/img13.jpg','images/img14.jpg', 'images/img15.jpg','images/img16.jpg'
 ];
 
- // Function to start the game
- function startGame() {
+// Function to start the game
+function startGame() {
     const pairs = parseInt(document.getElementById('pairs').value); // Get number of pairs
 
     totalPairs = pairs;
@@ -40,4 +41,18 @@ const imagePaths = [
         card.appendChild(img);
         gameBoard.appendChild(card);
     });
+}
+
+// Function to handle card flipping
+function flipCard(card) {
+    if (lockBoard || card.classList.contains('flipped')) return; // Prevent flipping more than two cards
+    card.classList.add('flipped');
+    if (!firstCard) {
+        firstCard = card; // Set first card if not already set
+    } else {
+        secondCard = card; // Set second card and check for match
+        lockBoard = true; // Prevent additional clicks until match check is done
+        
+        setTimeout(checkMatch, 1000);
+    }
 }
