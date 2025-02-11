@@ -1,1 +1,5 @@
-// Test function to start game
+/**
+ * @jest-environment jsdom
+ */
+
+
