@@ -8,15 +8,15 @@ let score = 0;
 
 //Array containing image file paths
 const imagePaths = [
-    'images/img1.jpg', 'images/img2.jpg', 'images/img3.jpg', 'images/img4.jpg',
-    'images/img5.jpg', 'images/img6.jpg', 'images/img7.jpg', 'images/img8.jpg',
-    'images/img9.jpg', 'images/img10.jpg', 'images/img11.jpg', 'images/img12.jpg',
-    'images/img13.jpg','images/img14.jpg', 'images/img15.jpg','images/img16.jpg'
+    'assets/images/aragorn.jpg', 'assets/images/elrond.jpeg', 'assets/images/eomer.jpg', 'assets/images/farimir.jpg',
+    'assets/images/frodo.jpg', 'assets/images/galadrial.webp', 'assets/images/gimli.jpg', 'assets/images/gollum.jpg',
+    'assets/images/legolas.jpg', 'assets/images/merry.jpg', 'assets/images/pippin.jpeg', 'assets/images/samwise.jpeg',
+    'assets/images/saruman.jpg','assets/images/theoden.jpg', 'assets/images/thering.jpg','assets/images/treebeard.jpeg'
 ];
 
 // Function to start the game
 function startGame() {
-    const pairs = parseInt(document.getElementById('pairs').value); // Get number of pairs
+    const pairs = parseInt(document.getElementById('pairs').value); // Get number of pairs from user input
 
     totalPairs = pairs;
     matchedPairs = 0;
