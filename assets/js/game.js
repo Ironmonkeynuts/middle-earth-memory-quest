@@ -8,10 +8,10 @@ let score = 0;
 
 //Array containing image file paths
 const imagePaths = [
-    'assets/images/aragorn.jpg', 'assets/images/elrond.jpeg', 'assets/images/eomer.jpg', 'assets/images/farimir.jpg',
-    'assets/images/frodo.jpg', 'assets/images/galadrial.webp', 'assets/images/gimli.jpg', 'assets/images/gollum.jpg',
-    'assets/images/legolas.jpg', 'assets/images/merry.jpg', 'assets/images/pippin.jpeg', 'assets/images/samwise.jpeg',
-    'assets/images/saruman.jpg','assets/images/theoden.jpg', 'assets/images/thering.jpg','assets/images/treebeard.jpeg'
+    'assets/images/aragorn.jpeg', 'assets/images/boromir.jpeg', 'assets/images/elrond.jpeg', 'assets/images/eomer.jpeg',
+    'assets/images/eowyn.jpeg', 'assets/images/frodo.jpeg', 'assets/images/galadriel.jpeg', 'assets/images/gandalf.jpeg',
+    'assets/images/gimli.jpeg', 'assets/images/grima.jpeg', 'assets/images/legolas.jpeg', 'assets/images/merry.jpeg',
+    'assets/images/pippin.jpeg','assets/images/samwise.jpeg', 'assets/images/saruman.jpeg','assets/images/theoden.jpeg'
 ];
 
 // Function to start the game
