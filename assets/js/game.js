@@ -1,4 +1,4 @@
-// Define variables
+// Game variables
 let firstcard = null;
 let secondcard = null;
 let lockBoard = false; // Prevents clicking more than two cards at a time
@@ -8,10 +8,10 @@ let score = 0;
 
 //Array containing image file paths
 const imagePaths = [
-    'assets/images/aragorn.jpeg', 'assets/images/boromir.jpeg', 'assets/images/elrond.jpeg', 'assets/images/eomer.jpeg',
-    'assets/images/eowyn.jpeg', 'assets/images/frodo.jpeg', 'assets/images/galadriel.jpeg', 'assets/images/gandalf.jpeg',
-    'assets/images/gimli.jpeg', 'assets/images/grima.jpeg', 'assets/images/legolas.jpeg', 'assets/images/merry.jpeg',
-    'assets/images/pippin.jpeg','assets/images/samwise.jpeg', 'assets/images/saruman.jpeg','assets/images/theoden.jpeg'
+    'aragorn.jpeg', 'boromir.jpeg', 'elrond.jpeg', 'eomer.jpeg',
+    'eowyn.jpeg', 'frodo.jpeg', 'galadriel.jpeg', 'gandalf.jpeg',
+    'gimli.jpeg', 'grima.jpeg', 'legolas.jpeg', 'merry.jpeg',
+    'pippin.jpeg','samwise.jpeg', 'saruman.jpeg','theoden.jpeg'
 ];
 
 // Function to start the game
