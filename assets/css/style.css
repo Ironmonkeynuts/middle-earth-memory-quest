@@ -1,15 +1,15 @@
 /* Basic page styling */
-body {
-    font-family: Arial, sans-serif;
+#pairs {
     text-align: center;
 }
 
 /* Container for the game board */
-.game-container {
+#game-board {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    max-width: 600px;
+    margin: auto;
 }
 
 /* Styling for each card */
