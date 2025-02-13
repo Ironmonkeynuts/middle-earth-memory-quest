@@ -20,6 +20,8 @@ const imagePaths = [
     'pippin.jpeg','samwise.jpeg', 'saruman.jpeg','theoden.jpeg'
 ];
 
+const cardBackImage = "assets/images/eye.jpeg"; // General image for card back
+
 // Function to start the game
 function startGame() {
 
