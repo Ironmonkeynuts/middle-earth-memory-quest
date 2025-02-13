@@ -5,12 +5,12 @@ const startBtn = document.getElementById("start-btn");
 const pairs = document.getElementById("pairs");
 
 // Game variables
-let firstcard = null;
-let secondcard = null;
-let lockBoard = false; // Prevents clicking more than two cards at a time
-let totalPairs = 0;
+let selectedImages = [];
+let cards = [];
+let flippedCards = [];
 let matchedPairs = 0;
 let score = 0;
+let numPairs = 4; // Default number of pairs
 
 //Array containing image file paths
 const imagePaths = [
@@ -40,7 +40,7 @@ function createCards {
         const card = document.createElement('div');
         card.classList.add('card');
         card.dataset.image = imgSrc;
-        
+
     const img = document.createElement('img');
     img.src = imgSrc;
     card.appendChild(img);
