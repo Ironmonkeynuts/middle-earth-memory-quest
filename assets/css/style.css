@@ -34,7 +34,20 @@
     backface-visibility: hidden;
 }
 
-/* Flipped card to reveal image */
-.flipped img {
+/* Show only the back image initially */
+.card .front {
+    display: none;
+}
+
+/* Back image style */
+.card .back {
     display: block;
+}
+
+/* Flip animation */
+.card.flipped .front {
+    display: block;
+}
+.card.flipped .back {
+    display: none;
 }
