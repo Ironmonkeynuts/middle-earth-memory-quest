@@ -43,14 +43,28 @@ function startGame() {
 // Function to create game cards
 function createCards {
     gameBoard.innerHTML = ''; // Clear the game board
-    gameImages.forEach((imgSrc, index) => {
-        const card = document.createElement('div');
-        card.classList.add('card');
-        card.dataset.image = imgSrc;
+    let gridSize = Math.sqrt(numPairs * 2); // Adjust grid dynamically
+    gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 120px)`;
 
-        const img = document.createElement('img');
-        img.src = imgSrc;
-        card.appendChild(img);
+   cards.forEach((image) => {
+        const card = document.createElement('div');
+        card.classList.add('card', 'm-2');
+
+        // Create front face (hidden initially)
+        const frontImg = document.createElement('img');
+        frontImg.src = `assets/images/${image}`;
+        frontImg.alt = "Middle-Earth Character";
+        frontImg.classList.add('front');
+        
+        // Create back face (always visible until flipped)
+        const backFace = document.createElement('img');
+        backFace.src = cardBackImage;
+        backFace.alt = "Card Back";
+        backFace.classList.add('back');
+
+        card.appendChild(frontImg);
+        card.appendChild(backFace);
+        card.addEventListener('click', flipCard);
         gameBoard.appendChild(card);
     });
 }
