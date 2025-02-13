@@ -49,6 +49,7 @@ function createCards() {
    cards.forEach((image) => {
         const card = document.createElement("div");
         card.classList.add("card", "m-2");
+        card.dataset.image = image; // Set dataset.image to compare la
 
         // Create front face (hidden initially)
         const frontImg = document.createElement("img");
@@ -71,6 +72,37 @@ function createCards() {
 
 // Function to handle card flip
 function flipCard() {
+    if (flippedCards.length === 2 || this.classList.contains("flipped")) return;
+    this.classList.add("flipped");
+    flippedCards.push(this);
+    if (flippedCards.length === 2) {
+        setTimeout(checkMatch, 1000); // Wait 1 second before checking match
+    }
+}
+
+// Function to check if flipped cards match
+function checkMatch() {
+    const [card1, card2] = flippedCards;
+
+    if (card1.dataset.image === card2.dataset.image) {
+        matchedPairs++;
+        score += 10;
+        scoreDisplay.textContent = `Score: ${score}`;
+        flippedCards = [];
+
+        if (matchedPairs === numPairs) {
+            setTimeout(() => alert("Congratulations! You've matched all pairs!"), 500);
+        }
+    } else {    
+        setTimeout(() => {
+            card1.classList.remove("flipped");
+            card2.classList.remove("flipped");
+            flippedCards = [];
+        }, 500);
+        if (score > 1) {score -= 2; scoreDisplay.textContent = `Score: ${score}`;}
+        else if (score = 1) {score -= 1; scoreDisplay.textContent = `Score: ${score}`;} // Prevent negative score
+        else {scoreDisplay.textContent = `Score: ${score}`;} // Prevent negative score
+    }
 }
 
 // Event listeners
