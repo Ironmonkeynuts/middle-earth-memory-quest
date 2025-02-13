@@ -26,8 +26,8 @@ const cardBackImage = "assets/images/eye.jpeg"; // General image for card back
 function startGame() {
     numPairs = parseInt(pairs.value);
     // Validate input (ensure it's between 2 and 16)
-    if (isNaN(numPairs) || numPairs < 1 || numPairs > 16) {
-        alert("Number of pairs (1-16).");
+    if (isNaN(numPairs) || numPairs < 2 || numPairs > 16) {
+        alert("Number of pairs (2-16).");
         return;
     }
 
@@ -41,7 +41,7 @@ function startGame() {
 }
 
 // Function to create game cards
-function createCards {
+function createCards() {
     gameBoard.innerHTML = ''; // Clear the game board
     let gridSize = Math.sqrt(numPairs * 2); // Adjust grid dynamically
     gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 120px)`;
@@ -69,7 +69,7 @@ function createCards {
     });
 }
 
-// Function to handle card flipping
-function flipCard(card) {
+// Function to handle card flip
+function flipCard() {
 
 }
