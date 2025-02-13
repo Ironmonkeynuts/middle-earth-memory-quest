@@ -27,7 +27,7 @@ function startGame() {
     numPairs = parseInt(pairs.value);
     // Validate input (ensure it's between 2 and 16)
     if (isNaN(numPairs) || numPairs < 2 || numPairs > 16) {
-        alert("Number of pairs (2-16).");
+        alert("Please enter a number between 2 and 16.");
         return;
     }
 
@@ -36,40 +36,42 @@ function startGame() {
    
     matchedPairs = 0;
     score = 0;
-    scoreDisplay.textContent = `Score: $(score)`;
+    scoreDisplay.textContent = `Score: ${score}`;
     createCards(); // Create game cards
 }
 
 // Function to create game cards
 function createCards() {
     gameBoard.innerHTML = ''; // Clear the game board
-    let gridSize = Math.sqrt(numPairs * 2); // Adjust grid dynamically
+    let gridSize = Math.ceil(Math.sqrt(numPairs * 2)); // Adjust grid dynamically
     gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 120px)`;
 
    cards.forEach((image) => {
-        const card = document.createElement('div');
-        card.classList.add('card', 'm-2');
+        const card = document.createElement("div");
+        card.classList.add("card", "m-2");
 
         // Create front face (hidden initially)
-        const frontImg = document.createElement('img');
+        const frontImg = document.createElement("img");
         frontImg.src = `assets/images/${image}`;
         frontImg.alt = "Middle-Earth Character";
-        frontImg.classList.add('front');
+        frontImg.classList.add("front");
         
         // Create back face (always visible until flipped)
-        const backFace = document.createElement('img');
-        backFace.src = cardBackImage;
-        backFace.alt = "Card Back";
-        backFace.classList.add('back');
+        const backImg = document.createElement("img");
+        backImg.src = cardBackImage;
+        backImg.alt = "Card Back";
+        backImg.classList.add("back");
 
         card.appendChild(frontImg);
         card.appendChild(backFace);
-        card.addEventListener('click', flipCard);
+        card.addEventListener("click", flipCard);
         gameBoard.appendChild(card);
     });
 }
 
 // Function to handle card flip
 function flipCard() {
-
 }
+
+// Event listeners
+startBtn.addEventListener("click", startGame);
