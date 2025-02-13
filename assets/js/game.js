@@ -64,7 +64,7 @@ function createCards() {
         backImg.classList.add("back");
 
         card.appendChild(frontImg);
-        card.appendChild(backFace);
+        card.appendChild(backImg); // Fix: Changed from backFace
         card.addEventListener("click", flipCard);
         gameBoard.appendChild(card);
     });
@@ -99,9 +99,14 @@ function checkMatch() {
             card2.classList.remove("flipped");
             flippedCards = [];
         }, 500);
-        if (score > 1) {score -= 2; scoreDisplay.textContent = `Score: ${score}`;}
-        else if (score = 1) {score -= 1; scoreDisplay.textContent = `Score: ${score}`;} // Prevent negative score
-        else {scoreDisplay.textContent = `Score: ${score}`;} // Prevent negative score
+        
+        // Fix code to properly prevent negatice scores
+        if (score > 1) {
+            score -= 2;
+        } else if (score === 1) {
+            score -= 1;
+        }
+        scoreDisplay.textContent = `Score: ${score}`;
     }
 }
 
