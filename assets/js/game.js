@@ -42,7 +42,7 @@ function startGame() {
 
 // Function to create game cards
 function createCards() {
-    gameBoard.innerHTML = ''; // Clear the game board
+    gameBoard.innerHTML = ""; // Clear the game board
     let gridSize = Math.ceil(Math.sqrt(numPairs * 2)); // Adjust grid dynamically
     gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 120px)`;
 
