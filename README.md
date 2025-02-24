@@ -110,24 +110,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ## Features
 
-
-
 ### Existing Features
 
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| Difficulty Level| This input controls the difficulty level by changing the number of matching pairs of images in a particular game. | ![screenshot](documentation/features/difficulty.png) |
-| Start / Restart | This button allows user to start or restart the game. | ![screenshot](documentation/features/start-restart.png) |
-| Score | ... | ![screenshot](documentation/features/score.png) |
-| High Score | ... | ![screenshot](documentation/features/high-score.png) |
-| Alerts | Depending on whether or not the user gets a matching pair of images or completes a game, alerts are used to provide simple feedback to the user. This showcases if they got it correct, or if they've gotten it incorrect, and ultimately if they have completed the game. | ![screenshot](documentation/features/alerts.png) |
+| Number of pairs| This input controls the difficulty level by changing the number of matching pairs of images in a particular game. | ![screenshot](documentation/features/difficulty.png) |
+| Start  | This button allows user to start or restart the game. | ![screenshot](documentation/features/start-restart.png) |
+| Score | This display current score based on attempts increasing score for matching pairs and decreasing scores for unmatching pairs. | ![screenshot](documentation/features/score.png) |
+| Invalid entry alert | When a user inputs a number less than 2 or greater than 16 into the Number of pairs input, an alert is used to provide simple feedback. | ![screenshot](documentation/features/invalid-alert.png) |
+| Game completed alert | When a user completes a game, an alert is used to provide simple feedback to the user. | ![screenshot](documentation/features/alerts.png) |
 | 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Middle-Earth Memory Quest* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
 
 ### Future Features
 
-- **Future Feature**: ... .
-- **Input Validation**: Provide real-time feedback for invalid inputs, such as attempting to divide by zero or using incorrect syntax.
-- **Dark Mode**: Add a dark mode option to enhance user experience and reduce eye strain during extended use.
+- **High Score**: Provide a display of the current high score.
+- **Dark Mode**: Add a dark mode/ light mode toggle option to enhance user experience and reduce eye strain during extended use.
 - **Customizable Themes**: Allow users to choose different themes, colors, images or layouts for personalizing their experience.
 - **Save & Share**: Allow users to save or share their results via a link or social media, especially for complex equations or useful outputs.
 - **Voice Input**: Add a voice input option for users to dictate their choices instead of typing.
@@ -208,8 +205,6 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
-
-
 
 ### Content
 
