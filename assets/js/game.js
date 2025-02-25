@@ -90,6 +90,11 @@ function checkMatch() {
         matchedPairs++;
         score += 10;
         scoreDisplay.textContent = `Score: ${score}`;
+
+        // Remove click event listeners to prevent further interaction
+        card1.removeEventListener("click", flipCard);
+        card2.removeEventListener("click", flipCard);
+
         flippedCards = [];
 
         if (matchedPairs === numPairs) {
