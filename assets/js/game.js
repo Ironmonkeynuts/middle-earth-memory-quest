@@ -46,7 +46,7 @@ function startGame() {
 function createCards() {
     gameBoard.innerHTML = ""; // Clear the game board
     let gridSize = Math.ceil(Math.sqrt(numPairs * 2)); // Adjust grid dynamically
-    gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 120px)`;
+    gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`; // Change from fixed width to 1fr for better flexibility
 
    cards.forEach((image) => {
         const card = document.createElement("div");
