@@ -78,7 +78,7 @@ function flipCard() {
     this.classList.add("flipped");
     flippedCards.push(this);
     if (flippedCards.length === 2) {
-        setTimeout(checkMatch, 1000); // Wait 1 second before checking match
+        setTimeout(checkMatch, 800); // Reduced delay
     }
 }
 
