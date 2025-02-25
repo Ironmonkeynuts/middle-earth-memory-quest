@@ -102,7 +102,7 @@ function checkMatch() {
             flippedCards = [];
         }, 500);
         
-        // Fix code to properly prevent negatice scores
+        // Fix code to properly prevent negative scores
         if (score > 1) {
             score -= 2;
         } else if (score === 1) {
