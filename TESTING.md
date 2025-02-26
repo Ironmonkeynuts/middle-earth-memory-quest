@@ -20,7 +20,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [style.css](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fironmonkeynuts.github.io%2Fmiddle-earth-memory-quest%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/validation/css-style.png) | No errors. |
+| assets/css | [style.css](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fironmonkeynuts.github.io%2Fmiddle-earth-memory-quest%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/validation/css-style.png) | No errors. |
 
 ### JavaScript
 
@@ -28,7 +28,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [game.js](https://github.com/Ironmonkeynuts/middle-earth-memory-quest/blob/main/assets/js/game.js) | N/A | ![screenshot](documentation/validation/js-assets-game.png) | Notes (if applicable) |
+| assets/js | [game.js](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/js/game.js) | N/A | ![screenshot](documentation/validation/js-game.png) | Notes (if applicable) |
 
 ## Responsiveness
 
