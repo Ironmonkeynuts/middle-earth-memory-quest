@@ -11,7 +11,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-|  | [index.html](https://github.com/Ironmonkeynuts/middle-earth-memory-quest/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://ironmonkeynuts.github.io/middle-earth-memory-quest/index.html) | ![screenshot](documentation/validation/html--index.png) | Notes (if applicable) |
+|  | [index.html](https://ironmonkeynuts.github.io/Tolkien-MS1/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fironmonkeynuts.github.io%2FTolkien-MS1%2Findex.html) | ![screenshot](documentation/validation/html-index.png) | No errors or warnings. |
 
 ### CSS
 
