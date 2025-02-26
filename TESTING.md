@@ -12,7 +12,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
 |  | [index.html](https://ironmonkeynuts.github.io/middle-earth-memory-quest/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fironmonkeynuts.github.io%2Fmiddle-earth-memory-quest%2Findex.html) | ![screenshot](documentation/validation/html-index.png) | No errors or warnings. |
-|  | [404.html](https://ironmonkeynuts.github.io/Tolkien-MS1/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fironmonkeynuts.github.io%2Fmiddle-earth-memory-quest%2F404.html) | ![screenshot](documentation/validation/html-404.png) | No errors or warnings. |
+|  | [404.html](https://ironmonkeynuts.github.io/middle-earth-memory-quest/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fironmonkeynuts.github.io%2Fmiddle-earth-memory-quest%2F404.html) | ![screenshot](documentation/validation/html-404.png) | No errors or warnings. |
 
 ### CSS
 
@@ -20,7 +20,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [style.css](https://github.com/Ironmonkeynuts/middle-earth-memory-quest/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://ironmonkeynuts.github.io/middle-earth-memory-quest) | ![screenshot](documentation/validation/css-assets-style.png) | Notes (if applicable) |
+| assets | [style.css](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fironmonkeynuts.github.io%2Fmiddle-earth-memory-quest%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/validation/css-style.png) | No errors. |
 
 ### JavaScript
 
