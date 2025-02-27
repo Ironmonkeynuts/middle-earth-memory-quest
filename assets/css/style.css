@@ -1,4 +1,9 @@
-/* Basic page styling */
+/* Fixes */
+
+#start-btn {
+   min-width: 60px; /* Fix: Button size on small devices */
+}
+
 #pairs {
     width: 60px; /* Fix: Add fixed width for input */
 }
