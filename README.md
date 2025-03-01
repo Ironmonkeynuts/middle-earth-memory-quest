@@ -243,8 +243,8 @@ Looking for some media files? Here are some popular sites to use. The list of ex
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
-- I would like to thank my Runshaw College tutor, [Tom]() for the support throughout the development of this project.
-- I would like to thank my  class mates on the Runshaw College L5 Web Application Course, []() for their input and support throughout the development of this project.
+- I would like to thank my Runshaw College tutor, [Thomas Cowan](cowen.t@runshaw.ac.uk) for the support throughout the development of this project.
+- I would like to thank my  class mates on the Runshaw College L5 Web Application Course, for their input and support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
 
