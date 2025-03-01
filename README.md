@@ -113,8 +113,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| Number of pairs| This input controls the difficulty level by changing the number of matching pairs of images in a particular game. | ![screenshot](documentation/features/difficulty.png) |
-| Start  | This button allows user to start or restart the game. | ![screenshot](documentation/features/start-restart.png) |
+| Number of pairs| This input controls the difficulty level by changing the number of matching pairs of images in a particular game. | ![screenshot](documentation/features/pairs.png) |
+| Start  | This button allows user to start or restart the game. | ![screenshot](documentation/features/start.png) |
 | Score | This display current score based on attempts increasing score for matching pairs and decreasing scores for unmatching pairs. | ![screenshot](documentation/features/score.png) |
 | Invalid entry alert | When a user inputs a number less than 2 or greater than 16 into the Number of pairs input, an alert is used to provide simple feedback. | ![screenshot](documentation/features/invalid-alert.png) |
 | Game completed alert | When a user completes a game, an alert is used to provide simple feedback to the user. | ![screenshot](documentation/features/alerts.png) |
