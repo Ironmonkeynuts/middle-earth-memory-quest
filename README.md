@@ -88,8 +88,9 @@ I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to ge
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
+| As a user | I would like to select number of pairs and a start button | so that I can set the game to my preffered level and start it.|
 | As a user | I would like to select two cards, reveal their images | so that I can see if they match or memorise card images for later selection.|
-| As a user | I would like the application to show me an error message if I enter an input that is empty (`NaN`) or less than 2 or greater than 16 | so that I understand what went wrong. |
+| As a user | I would like the application to show me an error message if I enter an empty input (`NaN`) or an input outside the accepted parameters| so that I understand what went wrong. |
 | As a user | I would like the game to acknowledge if two cards match or are different | so that results of selection are highlighted. |
 | As a user | I would like the application to have clear and large buttons and selectable cards | so that I can easily select the correct one on any device. |
 | As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. |
