@@ -116,8 +116,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Number of pairs| This input controls the difficulty level by changing the number of matching pairs of images in a particular game. | ![screenshot](documentation/features/pairs.png) |
 | Start  | This button allows user to start or restart the game. | ![screenshot](documentation/features/start.png) |
 | Score | This display current score based on attempts increasing score for matching pairs and decreasing scores for unmatching pairs. | ![screenshot](documentation/features/score.png) |
-| Invalid entry alert | When a user inputs a number less than 2 or greater than 16 into the Number of pairs input, an alert is used to provide simple feedback. | ![screenshot](documentation/features/invalid-alert.png) |
-| Game completed alert | When a user completes a game, an alert is used to provide simple feedback to the user. | ![screenshot](documentation/features/alerts.png) |
+| Invalid entry alert | When a user inputs a number less than 2 or greater than 16 into the Number of pairs input, an alert is used to provide simple feedback. | ![screenshot](documentation/features/alert-invalid-empty.png) ![screenshot](documentation/features/alert-invalid-incorrect.png) |
+| Game completed alert | When a user completes a game, an alert is used to provide simple feedback to the user. | ![screenshot](documentation/features/alert-completed.png) |
 | 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Middle-Earth Memory Quest* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
 
 ### Future Features
