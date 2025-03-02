@@ -105,8 +105,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/mobile-home.png) | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
-| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+| Home | ![screenshot](documentation/wireframes/home-mobile.png) | ![screenshot](documentation/wireframes/home-tablet.png) | ![screenshot](documentation/wireframes/home-desktop.png) |
+| 404 | ![screenshot](documentation/wireframes/404-mobile.png) | ![screenshot](documentation/wireframes/404-tablet.png) | ![screenshot](documentation/wireframes/404-desktop.png) |
 
 ## Features
 
@@ -119,7 +119,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Score | This display current score based on attempts increasing score for matching pairs and decreasing scores for unmatching pairs. | ![screenshot](documentation/features/score.png) |
 | Invalid entry alert | When a user inputs a number less than 2 or greater than 16 into the Number of pairs input, an alert is used to provide simple feedback. | ![screenshot](documentation/features/alert-invalid-empty.png) ![screenshot](documentation/features/alert-invalid-incorrect.png) |
 | Game completed alert | When a user completes a game, an alert is used to provide simple feedback to the user. | ![screenshot](documentation/features/alert-completed.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Middle-Earth Memory Quest* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Middle-Earth Memory Quest* site by using the same styling and appearance. | ![screenshot](documentation/features/404.png) |
 
 ### Future Features
 
