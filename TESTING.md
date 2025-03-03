@@ -76,15 +76,15 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | Target | Expectation | Outcome | Screenshot |
 | --- | --- | --- | --- |
-| As a user | I would like to select number of pairs and a start button | so that I can set the game to my preffered level and start it. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to select two cards, reveal their images | so that I can see if they match or memorise card images for later selection. | ![screenshot](documentation/features/feature01.png) |
+| As a user | I would like to select number of pairs and a start button | so that I can set the game to my preffered level and start it. | ![screenshot](documentation/features/select-start.png) |
+| As a user | I would like to select two cards, reveal their images | so that I can see if they match or memorise card images for later selection. | ![screenshot](documentation/features/select-cards.png) |
 | As a user | I would like the application to show me an error message if I enter an empty input (`NaN`) or an input outside the accepted parameters  | so that I understand what went wrong. | ![screenshot](documentation/features/alert-invalid-empty.png) ![screenshot](documentation/features/alert-invalid-incorrect.png) |
-| As a user | I would like the game to acknowledge if two cards match or are different | so that results of selection are highlighted. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like the application to have clear and large buttons and selectable cards | so that I can easily select the correct one on any device. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like to see the score I make to complete the puzzle | so I can push myself to improve my performance. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature09.png) |
+| As a user | I would like the game to acknowledge if two cards match or are different | so that results of selection are highlighted. | ![screenshot](documentation/features/cards-match.png) |
+| As a user | I would like the application to have clear and large buttons and selectable cards | so that I can easily select the correct one on any device. | ![screenshot](documentation/features/button.png) |
+| As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. | ![screenshot](documentation/features/contrast.png) |
+| As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. | ![screenshot](documentation/features/instructions.png) |
+| As a user | I would like to see the score I make to complete the puzzle | so I can push myself to improve my performance. | ![screenshot](documentation/features/score.png) |
+| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/404.png) |
 
 
 ## Automated Testing
