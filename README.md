@@ -69,15 +69,16 @@ source: [middle-earth-memory-quest amiresponsive](https://ui.dev/amiresponsive?u
 
 ### Colour Scheme
 
-- `#000000` primary text.
-- `#3772FF` primary highlights.
-- `#DF2935` secondary text.
-- `#FDCA40` secondary highlights.
+- `#f8f9fa` primary text (Bootstrap 5 'light').
+- `#212529` primary background (Bootstrap 5 'dark').
+- `#000000` button text.
+- `#ffc107` button background (Bootstrap 5 'warning').
+- `#000000` input text.
+- `#ffffff` input background.
 
 ### Typography
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [bs-font-sans-serif](https://getbootstrap.com/docs/5.3/content/reboot/#native-font-stack) native font stack used for all text in the body.
 
 ## User Stories
 
