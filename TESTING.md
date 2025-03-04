@@ -102,7 +102,7 @@ Below are the results from the tests that I've written for this application:
 
 | Test Suites | Tests | Screenshot |
 | --- | --- | --- |
-| 1 passed | 16 passed | ![screenshot](documentation/automation/jest-coverage.png) |
+| xx passed | xx passed | ![screenshot](documentation/automation/jest-coverage.png) |
 
 #### Jest Test Issues
 
