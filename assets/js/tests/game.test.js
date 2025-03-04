@@ -25,3 +25,20 @@ beforeAll(() => {
     // `;
     // const startBtn = document.getElementById('start-btn');  
 });
+
+describe('startGame', () => {
+    // beforeEach(() => {
+
+    // });
+
+    test('should initialize the game board with cards', () => {
+        //startGame();
+        const cards = document.querySelectorAll('.card');
+        expect(cards.length).toBeGreaterThan(0); // Ensure cards are created
+    });
+
+    test('should reset matched pairs and score', () => {
+        //startGame();
+        expect(document.getElementById('score').textContent).toBe("Score: 0");
+    });
+});
