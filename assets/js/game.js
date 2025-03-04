@@ -119,3 +119,8 @@ function checkMatch() {
 
 // Event listeners
 startBtn.addEventListener("click", startGame);
+
+// Export game functions for Jest testing
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { startGame, createCards, flipCard, checkMatch };
+}
