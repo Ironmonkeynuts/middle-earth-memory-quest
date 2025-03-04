@@ -68,7 +68,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | Start button | Feature is expected to display button that is clear, large, and easy to select on all devices. | Verified button size and usability across multiple devices (mobile, tablet, desktop). | Button was accessible and easy to use on all tested devices. | ![screenshot](documentation/defensive/responsive.png) |
 | Game board | Feature is expected to display a clear grid of 2 to 16 pairs of cards shuffled randomly. | Verified grid display and card size and clarity. | Grid displayed coreectly and cards were accessible and easy to select. | ![screenshot](documentation/defensive/input-output.png) |
 | Accessibility | Feature is expected to use high-contrast colors and accessible fonts. | Checked contrast ratios using accessibility tools (e.g., Lighthouse, Wave). | Colors and fonts met accessibility standards. | ![screenshot](documentation/defensive/accessibility.png) |
-| Instructions | Feature is expected to have clear labels and instructions for user guidance. | Reviewed labels and instructions for clarity and ease of use. | Labels and instructions were clear and intuitive. | ![screenshot](documentation/defensive/labels-instructions.png) |
+| Instructions | Feature is expected to have clear labels and instructions for user guidance. | Reviewed labels and instructions for clarity and ease of use. | Labels and instructions were clear and intuitive. | ![screenshot](documentation/features/instructions.png) |
 | Score Tracker | Feature is expected to track the number of correct and incorrect pair matches. | Performed multiple pair selections (correct and incorrect) and checked the score tracker. | Score tracker updated correctly for all tested scenarios. | ![screenshot](documentation/defensive/score.png) |
 | 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
 
@@ -102,7 +102,7 @@ Below are the results from the tests that I've written for this application:
 
 | Test Suites | Tests | Screenshot |
 | --- | --- | --- |
-| xx passed | xx passed | ![screenshot](documentation/automation/jest-coverage.png) |
+| 01 failed | 02 failed | ![screenshot](documentation/automation/jest-coverage.png) |
 
 #### Jest Test Issues
 
@@ -131,7 +131,6 @@ Any remaining open issues can be tracked [here](https://www.github.com/Ironmonke
 | Issue | Screenshot |
 | --- | --- |
 | On devices smaller than 375px, the page starts to have horizontal `overflow-x` scrolling. | ![screenshot](documentation/issues/overflow.png) |
-| When validating HTML with a semantic `<section>` element, the validator warns about lacking a header `h2-h6`. This is acceptable. | ![screenshot](documentation/issues/section-header.png) |
 
 > [!IMPORTANT]
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.

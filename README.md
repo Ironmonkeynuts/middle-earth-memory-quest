@@ -69,20 +69,15 @@ source: [middle-earth-memory-quest amiresponsive](https://ui.dev/amiresponsive?u
 
 ### Colour Scheme
 
-I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
-
 - `#000000` primary text.
 - `#3772FF` primary highlights.
 - `#DF2935` secondary text.
 - `#FDCA40` secondary highlights.
 
-![screenshot](documentation/coolors.png)
-
 ### Typography
 
 - [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
 - [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
 
@@ -227,7 +222,7 @@ There are no remaining major differences between the local version when compared
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
-- I would like to thank my Runshaw College tutor, [Thomas Cowan](cowen.t@runshaw.ac.uk) for the support throughout the development of this project.
+- I would like to thank my Runshaw College tutor, Thomas Cowan (cowen.t@runshaw.ac.uk) for the support throughout the development of this project.
 - I would like to thank my  class mates on the Runshaw College L5 Web Application Course, for their input and support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
