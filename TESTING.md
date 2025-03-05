@@ -28,7 +28,8 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets/js | [game.js](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/js/game.js) | N/A | ![screenshot](documentation/validation/js-game.png) | Notes (if applicable) |
+| assets/js | [game.js](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/js/game.js) | N/A | ![screenshot](documentation/validation/js-game.png) | Tested and working |
+| assets/js | [game.js](https://ironmonkeynuts.github.io/middle-earth-memory-quest/assets/js/game.test.js) | N/A | ![screenshot](documentation/validation/js-game.test.png) | Tested and failing |
 
 ## Responsiveness
 
