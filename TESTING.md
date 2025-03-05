@@ -128,9 +128,9 @@ Any remaining open issues can be tracked [here](https://www.github.com/Ironmonke
 
 ### Known Issues
 
-| Issue | Screenshot |
+| Issue |
 | --- | --- |
-| On devices smaller than 375px, the page starts to have horizontal `overflow-x` scrolling. | ![screenshot](documentation/issues/overflow.png) |
+| On devices smaller than 375px, the page starts to have horizontal `overflow-x` scrolling. |
 
 > [!IMPORTANT]
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
