@@ -216,7 +216,6 @@ There are no remaining major differences between the local version when compared
 | Source | Notes |
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
-| [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
 | [Open AI Chat GPT](https://openai.com/index/chatgpt/) | AI generated artwork |
 
 ### Acknowledgements
